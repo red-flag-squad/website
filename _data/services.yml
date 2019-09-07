@@ -1,0 +1,15 @@
+- title: Branding
+  description: Contrary to popular belief, Lorem Ipsum not simply random text
+  icon: fa-bullhorn
+
+- title: Marketing
+  description: Contrary to popular belief, Lorem Ipsum not simply random text
+  icon: fa-expand
+
+- title: Developing
+  description: Contrary to popular belief, Lorem Ipsum not simply random text
+  icon: fa-codepen
+
+- title: Photography
+  description: Contrary to popular belief, Lorem Ipsum not simply random text
+  icon: fa-video

@@ -1,0 +1,39 @@
+<section class="craste-blog-area" id="blog">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-sm-2 col-12">
+                <div class="section-heading-wrapper">
+                    <h5 class="section-heading">Blog</h5>
+                </div>
+            </div><!-- .col-sm-2 col-12 -->
+            <div class="col-sm-8 col-12">
+                <div class="craste-blog">
+                    <h2 class="section-description">As a web developer, I love to write article. You can take a look</h2>
+
+                    <div class="craste-blog-wrapper">
+                        <div class="row">
+                            {% for post in site.posts %}
+                            <div class="col-lg col-12">
+                                {% if forloop.first == true %}
+                                {% assign class = 'article-left' %}
+                                {% else %}
+                                {% assign class = 'blog-right' %}
+                                {% endif %}
+                                <div class="{{ class }}">
+                                    <article class="single-article">
+                                        <a href="{{ post.url }}"><img src="images/portfolio/13.jpg" alt="Partners"></a>
+                                        <div class="article-details">
+                                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                            <span>26 March, 2018</span>
+                                        </div><!-- .article-details -->
+                                    </article><!-- .single-article -->
+                                </div><!-- .article-left -->
+                            </div><!-- .col-sm-6 .col-12 -->
+                            {% endfor %}
+                        </div><!-- .row -->
+                    </div><!-- .craste-blog-wrapper -->
+                </div><!-- .craste-blog -->
+            </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
+        </div><!-- .row -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-blog-area -->

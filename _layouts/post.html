@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="craste-breadcrumb-area">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-12">
+                <div class="craste-breadcrumb">
+                    <h2>{{ page.title }}</h2>
+                </div><!-- .craste-breadcrumb -->
+            </div><!-- .col-12 -->
+        </div><!-- .row craste-shrink -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-breadcrumb-area -->
+
+<section class="craste-single-blog-area">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-md col-12">
+                <div class="single-blog-img">
+                    <img src="{{ page.image | absolute_url }}" alt="Blog Image">
+                </div><!-- .single-blog-img -->
+            </div><!-- .col-md .col-12 -->
+            <div class="col-md col-12">
+                <div class="single-blog-content">
+                    {{ content }}
+                </div><!-- .single-blog-content -->
+                <div class="row">
+                    <div class="col-md">
+                        <div class="posted-info">
+                            <span class="date">April 02, 2018</span>
+                        </div><!-- .posted-info -->
+                    </div><!-- .col-md -->
+                </div><!-- .row -->
+                <div class="row">
+                    <div class="col">
+                        <div class="post-share">
+                            <p>Share on Social</p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div><!-- .post-share -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .col-md .col-12 -->
+        </div><!-- .row craste-shrink -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-single-blog-area -->

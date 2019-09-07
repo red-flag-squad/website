@@ -1,0 +1,26 @@
+<footer class="footer-area">
+    <div class="container-fluid">
+        <div class="row craste-shrink justify-content-sm-center">
+            <div class="col-sm-8 col">
+                <div class="footer">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <p>&copy; All Rights Reserved - 2018 Craste by <a href="#">ThemesTrace</a></p>
+                </div><!-- .footer -->
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container-fluid -->
+</footer><!-- .footer-area -->
+
+<a href="#" id="top" class="top">
+    <i class="fas fa-long-arrow-alt-up top-icon"></i>
+    <i class="fas fa-long-arrow-alt-up top-icon-alt"></i>
+</a>
+
+{% for js in site.data.js %}
+<script src="{{ js.file }}"></script>
+{% endfor %}

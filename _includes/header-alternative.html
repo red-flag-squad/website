@@ -1,0 +1,23 @@
+<header class="craste-initial-header-area">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col">
+                <div class="navbar craste-main-header">
+                    <div class="header-border"></div><!-- .header-border -->
+                    <a class="navbar-brand brand-alt" href="index.html">
+                        <img src="images/logo.png" alt="Site Title">
+                    </a>
+                    <div class="craste-initial-menu">
+                        <nav>
+                            <ul>
+                                {% for menu in site.data.menu %}
+                                <li><a href="{{ menu.link }}">{{ menu.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div><!-- .craste-initial-menu -->
+                </div><!-- .craste-main-header -->
+            </div><!-- .col -->
+        </div><!-- .row craste-shrink -->
+    </div><!-- .container-fluid -->
+</header>

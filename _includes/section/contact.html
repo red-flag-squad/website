@@ -1,0 +1,47 @@
+<section class="craste-contact-area" id="contact">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-sm-2 col-12">
+                <div class="section-heading-wrapper">
+                    <h5 class="section-heading">Contact</h5>
+                </div>
+            </div><!-- .col-sm-2 col-12 -->
+            <div class="col-sm-8 col-12">
+                <div class="craste-contact">
+                    <h2 class="section-description">I'd love to hear from you. You can contact me at any time if you need to</h2>
+
+                    <div class="craste-contact-wrapper">
+                        <form class="contact-form" action="process.php" method="post" id="contact-form">
+                            <p>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required="required">
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required="required">
+                            </p>
+                            <p>
+                                <label for="phone">Phone:</label>
+                                <input type="text" id="phone" name="phone" required="required">
+                            </p>
+                            <p>
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" required="required">
+                            </p>
+                            <p>
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message"></textarea>
+                            </p>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div><!-- .craste-contact-wrapper -->
+                </div><!-- .craste-contact -->
+            </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
+            <div class="col-12">
+                <div class="contact__msg text-center">
+                    <p>Your message was sent successfully.</p>
+                </div>
+            </div><!-- .col-xs-12 -->
+        </div><!-- .row -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-contact-area -->

@@ -1,0 +1,33 @@
+<section class="craste-testimonial-area" id="testimonial">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-sm-2 col-12">
+                <div class="section-heading-wrapper">
+                    <h5 class="section-heading">Speech</h5>
+                </div>
+            </div><!-- .col-sm-2 col-12 -->
+            <div class="col-sm-8 col-12">
+                <div class="craste-testimonial">
+                    <h2 class="section-description">As a web developer, I greatly motivate from my client speech</h2>
+
+                    <div class="craste-testimonial-wrapper">
+                        {% for testimonial in site.data.testimonials %}
+                        <div class="single-testimonial">
+                            <div class="testimonial-details">
+                                <div class="testimonial-details-wrapper">
+                                    <i class="fas fa-quote-left"></i>
+                                    <h3>{{ testimonial.name }}</h3>
+                                    <p>{{ testimonial.description }}</p>
+                                </div><!-- .testimonial-details-wrapper -->
+                            </div><!-- .testimonial-details -->
+                            <div class="testimonial-img">
+                                <img src="images/craste.jpg" alt="Client">
+                            </div><!-- .testimonial-img -->
+                        </div><!-- .single-testimonial -->
+                        {% endfor %}
+                    </div><!-- .craste-testimonial-wrapper -->
+                </div><!-- .craste-testimonial -->
+            </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
+        </div><!-- .row -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-testimonial-area -->

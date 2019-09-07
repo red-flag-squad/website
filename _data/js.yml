@@ -1,0 +1,20 @@
+- file: js/modernizr-3.5.0.min.js
+
+- file: https://code.jquery.com/jquery-3.2.1.min.js
+
+- file: js/bootstrap.min.js
+
+- file: js/strip.min.js
+
+- file: js/progress-bar.min.js
+
+- file: js/isotope.min.js
+
+- file: js/owl.carousel.min.js
+
+- file: js/jquery.easing.min.js
+
+- file: js/jquery.nicescroll.min.js
+
+- file: js/app.js
+

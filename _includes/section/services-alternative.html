@@ -1,0 +1,22 @@
+        <section class="craste-services-area service-alt noptb" id="services">
+            <div class="container-fluid">
+                <div class="row craste-shrink">
+                    <div class="col-12">
+                        <div class="craste-services">
+                            <div class="row">
+                               {% for service in site.data.services %}
+                                <div class="col-md-3 col-12">
+                                    <div class="single-service {% cycle 'black-bg', '' %}">
+                                        <i class="fas {{ service.icon }}"></i>
+                                        <h5>{{ service.title }}</h5>
+                                        <p>{{ service.description }}</p>
+                                    </div><!-- .single-service -->
+                                </div><!-- .col-md-3 .col-12 -->
+                                {% endfor %}
+                            </div><!-- .row -->
+                        </div><!-- .craste-services -->
+                    </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
+                </div><!-- .row -->
+            </div><!-- .container-fluid -->
+        </section><!-- .craste-services-area -->
+
