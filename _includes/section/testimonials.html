@@ -3,12 +3,12 @@
         <div class="row craste-shrink">
             <div class="col-sm-2 col-12">
                 <div class="section-heading-wrapper">
-                    <h5 class="section-heading">Speech</h5>
+                    <h5 class="section-heading"></h5>
                 </div>
             </div><!-- .col-sm-2 col-12 -->
             <div class="col-sm-8 col-12">
                 <div class="craste-testimonial">
-                    <h2 class="section-description">As a web developer, I greatly motivate from my client speech</h2>
+                    <h2 class="section-description">Testimonios</h2>
 
                     <div class="craste-testimonial-wrapper">
                         {% for testimonial in site.data.testimonials %}
@@ -21,7 +21,7 @@
                                 </div><!-- .testimonial-details-wrapper -->
                             </div><!-- .testimonial-details -->
                             <div class="testimonial-img">
-                                <img src="images/craste.jpg" alt="Client">
+                                <img src="{{ testimonial.image }}" alt="Client">
                             </div><!-- .testimonial-img -->
                         </div><!-- .single-testimonial -->
                         {% endfor %}

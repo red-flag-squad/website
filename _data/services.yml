@@ -1,15 +1,19 @@
-- title: Branding
-  description: Contrary to popular belief, Lorem Ipsum not simply random text
+- title: Training a programadores
+  description: Independientemente de la tecnología que se utilice o del dominio en el que trabaje nuestro equipo, hay ciertas prácticas que consideramos transversales como TDD, Integración Continua o pruebas "end-to-end" que aportan gran valor a nuestros proyectos. Es habitual que estas prácticas no estén tan extendidas como nos gustaría en nuestro equipo o que nuevos empleados no las conozcan.
+  description2: Nuestro training a programadores consta de sesiones de formación en grupo e individuales, y el conocimiento adquirido se aplica de manera práctica en un proyecto vehicular.
   icon: fa-bullhorn
 
-- title: Marketing
-  description: Contrary to popular belief, Lorem Ipsum not simply random text
+- title: Agile@Work
+  description: El mantenimiento y evolución de bases de código, la adopción de técnicas de desarrollo ágil como TDD o Refactoring o incluso la incorporación de nuevos miembros a los equipos, son cuestiones que pueden resultar muy complejas. Desde Agile@Work ofrecemos nuestra experiencia para capacitar a los miembros de vuestro equipo y además darles una continuidad que les permita interiorizar las prácticas.
+  description2: Agile@Work es un formato en el que se introducen prácticas ágiles como Clean Code, TDD y Refactoring, practicando los conceptos aprendidos en MOB programming y aplicándolo sobre el código de producción.
   icon: fa-expand
 
-- title: Developing
-  description: Contrary to popular belief, Lorem Ipsum not simply random text
+- title: Plan de carrera para empresas
+  description: En la situación actual del sector, ya no es suficiente utilizar una tecnología llamativa o ofrecer una suma alta de dinero. Los verdaderos profesionales buscan principalmente  seguir aprendiendo y crecer como profesional dentro de un equipo maduro y en una organización que les ofrezca valor a medio y largo plazo.
+  description2: En Red Flag creemos que el crecimiento personal alineado con las necesidades estratégicas de la organización es la combinación perfecta. El diseño de planes de carrera como ejes directores de este crecimiento permitirá ofrecer un reclamo real a quienes busquen formar parte de un organización con proyección. Para aquellos que ya forman parte de ella, fomentará el crecimiento y guiará el aprendizaje.
   icon: fa-codepen
 
-- title: Photography
-  description: Contrary to popular belief, Lorem Ipsum not simply random text
+- title: Cursos en vídeo
+  description: "La formación presencial es uno de los mecanismos de aprendizaje más utilizados en las organizaciones a la hora de mejorar el nivel de los equipos. Existen muchos factores que pueden hacer del aprendizaje presencial una misión imposible. Por ejemplo: la localización que obliga a altos costes de desplazamiento, equipos trabajando en remoto, bloqueo días completos para la formación y ajustar sesiones a horarios de conciliación. Esto hace que esquemas asíncronos de interacción y de ejecución en remoto, aporten el mismo valor o incluso más que las formaciones presenciales tradicionales."
+  description2: "Red Flag apuesta por nuevos escenarios de aprendizaje y ofrece en base a su experiencia, didácticas avanzadas que maximizan el valor de estos formatos. Algunos de los recursos con los que contamos son: cursos en vídeo, guías didácticas, proyectos vehiculares, revisiones de código o formación en prácticas ágiles."
   icon: fa-video

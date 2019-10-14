@@ -1,0 +1,23 @@
+- name: Elena
+  picture: images/team/elena.jpg
+  twitter: https://twitter.com/elenamg31
+  linkedin: https://www.linkedin.com/in/emelgil/
+  description: Pedagoga de formación y programadora de profesión, ambas cosas me permite combinar mi experiencia para superar los retos en formación dentro de la industria IT.
+
+- name: David
+  picture: images/team/david.jpg
+  twitter: https://twitter.com/david_baltha
+  linkedin: https://www.linkedin.com/in/davidhernandezruiz1/ 
+  description: Programador, organizador de eventos y contribuidor al movimiento del software libre, principalmente en la parte de organización de comunidad y de mentoría a nuevos contribuidores.
+
+- name: Xavi
+  picture: images/team/xavi.jpeg
+  twitter: https://twitter.com/XaV1uzz
+  linkedin: https://www.linkedin.com/in/xaviergost/
+  description: Programador, organizador de eventos y contribuidor al movimiento del software libre, principalmente en la parte de organización de comunidad y de mentoría a nuevos contribuidores.
+
+- name: Ricardo
+  picture: images/team/ricardo.jpeg
+  twitter: https://twitter.com/borillo
+  linkedin: http://linkedin.com/in/borillo
+  description: Desarrollador y formador, llevo toda mi carrera profesional compaginando estas dos actividades alrededor de Lean y Agile. Centrado en la calidad del código, enseño refactoring, clean code, testing y frontend a equipos centrados en mejorar sus prácticas y la arquitectura de sus aplicaciones.

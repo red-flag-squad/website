@@ -3,45 +3,26 @@
         <div class="row craste-shrink">
             <div class="col-sm-2 col-12">
                 <div class="section-heading-wrapper">
-                    <h5 class="section-heading">Resume</h5>
+                    <h5 class="section-heading"></h5>
                 </div>
             </div><!-- .col-sm-2 col-12 -->
             <div class="col-sm-8 col-12">
                 <div class="craste-resume">
-                    <h2 class="section-description">As a web developer, My personal details here to explore more about me</h2>
+                    <h2 class="section-description">Team</h2>
 
                     <div class="craste-resume-details">
                         <div class="row">
+                            {% for member in site.data.team %}
                             <div class="col-md col-12">
-                                <h3>Education</h3>
+                                <h3>{{ member.name }}</h3>
                                 <div class="single-resume-details">
-                                    <h4>UI/UX Course</h4>
-                                    <h5>University of teach studio</h5>
-                                    <h6>2010 - 2014</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut elit tellus, luctus nec ullamcorper </p>
-                                </div><!-- .single-resume-details -->
-                                <div class="single-resume-details">
-                                    <h4>Web Development</h4>
-                                    <h5>University of teach studio</h5>
-                                    <h6>2010 - 2014</h6>
-                                    <p class="mb0">Lorem ipsum dolor sit amet, consectetur adipiscing. Ut elit tellus, luctus nec ullamcorper </p>
+                                    <img src="{{ member.picture }}"/>
+                                    <h5><a href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></h5>
+                                    <h5><a href="{{ member.twitter }}"><i class="fab fa-linkedin"></i></a></h5>
+                                    <p>{{ member.description }}</p>
                                 </div><!-- .single-resume-details -->
                             </div><!-- .col-md .col-12 -->
-                            <div class="col-md col-12">
-                                <h3>Experience</h3>
-                                <div class="single-resume-details">
-                                    <h4>Web Design</h4>
-                                    <h5>University of teach studio</h5>
-                                    <h6>2010 - 2014</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Ut elit tellus, luctus nec ullamcorper </p>
-                                </div><!-- .single-resume-details -->
-                                <div class="single-resume-details">
-                                    <h4>UI/UX Course</h4>
-                                    <h5>University of teach studio</h5>
-                                    <h6>2010 - 2014</h6>
-                                    <p class="mb0">Lorem ipsum dolor sit amet, consectetur adipiscing. Ut elit tellus, luctus nec ullamcorper </p>
-                                </div><!-- .single-resume-details -->
-                            </div><!-- .col-md .col-12 -->
+                            {% endfor %}
                         </div><!-- .row -->
                     </div><!-- .craste-resume-details -->
                 </div><!-- .craste-resume -->

@@ -1,8 +1,11 @@
-- name: Maxime Guzman
-  description: Outstanding work for my site. I will keep using you guys and will recommend you to others. Thank you!
+- name:  Samuel Rivas, Idealista 
+  description: Hasta tres veces con grupos diferentes hemos realizado estas sesiones con Xavi y Ricardo. Es increíble cómo pueden adaptarse tan rápidamente a cualquier código y cualquier reto. Unos cracks que hacen las sesiones dinámicas, útiles y productivas. 100% recomendado!
+  image: images/testimonial/idealista.jpg
 
-- name: Shu Fang Ma
-  description: Outstanding work for my site. I will keep using you guys and will recommend you to others. Thank you!
+- name: Pablo Guardiola, Telefónica I+D
+  description: Exploramos técnicas para entrenar nuestro olfato y aprender mecánicas de Refactoring que mejoran la calidad de tu código de una manera espectacular, todo ello sobre nuestro código de producción en Mob programming. Sin duda, un must si quieres dar un Power up a tu equipo de trabajo.
+  image: images/testimonial/telefonica.jpg
 
-- name: Monisha Caspers
-  description: Outstanding work for my site. I will keep using you guys and will recommend you to others. Thank you!
+- name: Jose Luis Serrano, Tecnatom
+  description: El retorno de la inversión comenzó inmediatamente. El equipo ha ganado en motivación, al encontrar nuevas formas de mejorar la estructura del código. Hemos subido el listón de nuestras expectativas de calidad y hemos aprendido nuevas técnicas para convivir mejor con nuestra base de código. Totalmente recomendable.
+  image: images/testimonial/tecnatom.jpg
