@@ -82,7 +82,7 @@ Sidebar heading :   16px 'Rubik', sans-serif;
 
 body {
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 blockquote {
@@ -1012,7 +1012,7 @@ blockquote:before {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .banner-wrapper p {
@@ -1324,7 +1324,7 @@ blockquote:before {
 }
 
 .single-service p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .service-alt .single-service {
@@ -1395,7 +1395,7 @@ blockquote:before {
 }
 
 .single-resume-details p {
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .craste-resume-area.resume-alt {
