@@ -1,15 +1,15 @@
-- title: About
-  link: /#about
+- title: Intro
+  link: '#intro'
 
-- title: Portfolio
-  link: /#portfolio
+- title: Valor
+  link: '#value'
 
-- title: Services
-  link: /#services
+- title: Servicios
+  link: '#services'
 
-- title: Resume
-  link: /#resume
+- title: Equipo
+  link: '#team'
 
-- title: Testimonial
-  link: /#testimonial
+- title: Testimonios
+  link: '#testimonial'
 

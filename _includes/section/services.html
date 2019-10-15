@@ -1,27 +1,36 @@
-<section class="craste-services-area" id="services">
+<section class="craste-partners-area" id="partner">
     <div class="container-fluid">
         <div class="row craste-shrink">
             <div class="col-sm-2 col-12">
                 <div class="section-heading-wrapper">
-                    <h5 class="section-heading">Services</h5>
+                    <h5 class="section-heading"></h5>
                 </div>
             </div><!-- .col-sm-2 col-12 -->
             <div class="col-sm-8 col-12">
+                <div class="craste-partners">
+                    <h2 class="section-description">Qué ofrecemos</h2>
+                </div><!-- .craste-partners -->
+            </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
+        </div><!-- .row -->
+    </div><!-- .container-fluid -->
+</section><!-- .craste-partners-area -->
+<section class="craste-services-area service-alt noptb" id="services">
+    <div class="container-fluid">
+        <div class="row craste-shrink">
+            <div class="col-12">
                 <div class="craste-services">
-                    <h2 class="section-description">As a web developer, I offer some great services to deal with me to work</h2>
-
-                    <div class="craste-services-wrapper">
-                        <div class="row">
-                            {% for service in site.data.services %}
-                            <div class="col-md-6 col-12">
-                                <div class="single-service">
-                                    <h5>{{ service.title }}</h5>
-                                    <p>{{ service.description }}</p>
-                                </div><!-- .single-service -->
-                            </div><!-- .col-md-6 .col-12 -->
-                            {% endfor %}
-                        </div><!-- .row -->
-                    </div><!-- .craste-services-wrapper -->
+                    <div class="row">
+                       {% for service in site.data.services %}
+                        <div class="col-md-3 col-12">
+                            <div class="single-service {% cycle 'black-bg', '' %}">
+                                <i class="fas {{ service.icon }}"></i>
+                                <h5>{{ service.title }}</h5>
+                                <p>{{ service.description }}</p>
+                                <p>{{ service.description2 }}</p>
+                            </div><!-- .single-service -->
+                        </div><!-- .col-md-3 .col-12 -->
+                        {% endfor %}
+                    </div><!-- .row -->
                 </div><!-- .craste-services -->
             </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
         </div><!-- .row -->
