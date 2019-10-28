@@ -2080,3 +2080,22 @@ blockquote:before {
     display: flex;
     flex-direction: row-reverse;
 }
+
+.craste-initial-header-area .craste-initial-menu {
+    margin-left: auto;
+    float: right;
+}
+
+.craste-initial-header-area .header-border,
+.craste-initial-header-area .navbar-brand {
+    display: none;
+}
+
+.craste-initial-header-area.fixed-header .header-border,
+.craste-initial-header-area.fixed-header .navbar-brand {
+    display: initial;
+}
+
+.craste-initial-header-area .navbar {
+    flex-wrap: initial;
+}
