@@ -2070,3 +2070,13 @@ blockquote:before {
 .social-links li {
     display: inline-block;
 }
+
+.craste-services .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row-reverse;
+}

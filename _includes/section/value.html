@@ -3,11 +3,10 @@
         <div class="row craste-shrink">
             <div class="col-12">
                 {% for value in site.data.value %}
-                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                    {% if thecycle == 'odd' %}
-                    <div class="row">
+                    {% capture thecycle %}{% cycle 'left', 'right' %}{% endcapture %}
+                    <div class="row flex-{{ thecycle }}">
                         <div class="col-md-6 col-12 on-boarding">
-                            <div class="degree-title left">
+                            <div class="degree-title {{ thecycle }}">
                                 <h3>{{ value.header }}</h3>
                             </div><!-- .degree-title -->
                         </div><!-- .col-md .col-12 -->
@@ -17,20 +16,7 @@
                                 {{ value.text | markdownify }}
                             </div><!-- .single-resume-details -->
                         </div><!-- .col-md .col-12 -->
-                    {% else %}
-                        <div class="col-md-6 col-12 align-self-center talent">
-                            <div class="single-resume-details text-right">
-                                <h2>{{ value.title }}</h2>
-                                {{ value.text | markdownify }}
-                            </div><!-- .single-resume-details -->
-                        </div><!-- .col-md .col-12 -->
-                        <div class="col-md-6 col-12 talent">
-                            <div class="degree-title right">
-                                <h3>{{ value.header }}</h3>
-                            </div><!-- .degree-title -->
-                        </div><!-- .col-md .col-12 -->
                     </div><!-- .row -->
-                    {% endif %}
                 {% endfor %}
             </div><!-- .col-sm-8 .offset-sm-1 .col-12 -->
         </div><!-- .row -->
