@@ -7,14 +7,14 @@
 - name: David
   picture: images/team/david.jpg
   twitter: https://twitter.com/david_baltha
-  linkedin: https://www.linkedin.com/in/davidhernandezruiz1/ 
+  linkedin: https://www.linkedin.com/in/davidhernandezruiz1/
   description: Programador, organizador de eventos y contribuidor al movimiento del software libre, principalmente en la parte de organización de comunidad y de mentoría a nuevos contribuidores.
 
 - name: Xavi
   picture: images/team/xavi.jpeg
   twitter: https://twitter.com/XaV1uzz
   linkedin: https://www.linkedin.com/in/xaviergost/
-  description: Programador, organizador de eventos y contribuidor al movimiento del software libre, principalmente en la parte de organización de comunidad y de mentoría a nuevos contribuidores.
+  description: Programo y pusheo sin rebase.
 
 - name: Ricardo
   picture: images/team/ricardo.jpeg

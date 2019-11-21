@@ -1,22 +1,15 @@
-<section class="craste-resume-area" id="team">
+<section class="craste-team-area" id="team">
     <div class="container-fluid">
         <div class="row craste-shrink">
-            <div class="col-sm-2 col-12">
-                <div class="section-heading-wrapper">
-                    <h5 class="section-heading"></h5>
-                </div>
-            </div><!-- .col-sm-2 col-12 -->
-            <div class="col-sm-8 col-12">
+            <div class="col-8 centered">
                 <div class="craste-resume">
-                    <h2 class="section-description">Equipo</h2>
-
                     <div class="craste-resume-details">
                         <div class="row">
                             {% for member in site.data.team %}
                             <div class="col-md col-12">
-                                <h3>{{ member.name }}</h3>
                                 <div class="single-resume-details">
                                     <img src="{{ member.picture }}"/>
+                                    <h3>{{ member.name }}</h3>
                                     <ul class="social-links">
                                         <li><a href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="{{ member.twitter }}"><i class="fab fa-linkedin"></i></a></li>

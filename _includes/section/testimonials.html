@@ -1,22 +1,17 @@
 <section class="craste-testimonial-area" id="testimonial">
     <div class="container-fluid">
         <div class="row craste-shrink">
-            <div class="col-sm-2 col-12">
-                <div class="section-heading-wrapper">
-                    <h5 class="section-heading"></h5>
-                </div>
-            </div><!-- .col-sm-2 col-12 -->
-            <div class="col-sm-8 col-12">
+            <div class="col-sm-8 col-12 centered">
                 <div class="craste-testimonial">
-                    <h2 class="section-description">Testimonios</h2>
-
+                    <h3 class="section-description">Lee los</h3>
+                    <h2 class="section-description">testimonios</h2>
                     <div class="craste-testimonial-wrapper">
                         {% for testimonial in site.data.testimonials %}
                         <div class="single-testimonial">
                             <div class="testimonial-details">
                                 <div class="testimonial-details-wrapper">
-                                    <i class="fas fa-quote-left"></i>
                                     <h3>{{ testimonial.name }}</h3>
+                                    <h2>{{ testimonial.company }}</h2>
                                     <p>{{ testimonial.description }}</p>
                                 </div><!-- .testimonial-details-wrapper -->
                             </div><!-- .testimonial-details -->

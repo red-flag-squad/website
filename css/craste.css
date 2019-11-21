@@ -1038,9 +1038,6 @@ blockquote:before {
     padding: 22px 25px;
     box-shadow: 0 0 5px #fbfbfb;
 }
-
-.banner-video-intro a {
-    color: #FBAC91;
 }
 
 .craste-banner-slider-area .carousel-caption {
@@ -1346,16 +1343,18 @@ blockquote:before {
 .craste-services-area .section-description {
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1;
 }
 
 .craste-services-area h3.section-description {
     font-style: italic;
+    font-weight: bold;
     font-size: 35px;
-    line-height: 40px;
 }
 
 .craste-services-area h2.section-description {
     font-size: 60px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -1418,29 +1417,52 @@ blockquote:before {
 07. Resume Area
 ==========================================================
 */
-.craste-resume-area:not(.resume-alt) {
-    background-image: url('../images/resume-bg.png');
-    position: relative;
-    background-size: cover;
-    background-position: center center;
+.craste-team-area {
+    padding-top: 80px;
+    background-image: url('../images/1-08.png');
+    background-size: 15%;
+    background-position: right bottom;
     background-repeat: no-repeat;
-    padding: 80px 0;
+    padding-bottom: 80px;
 }
 
-.craste-resume-details {
+.craste-testimonial-area .centered,
+.craste-team-area .centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.craste-team-area .centered .single-resume-details img {
+    border-radius: 50%;
+}
+
+.craste-team-area .centered .single-resume-details h3 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #5C93B0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    width: max-content;
+    position: relative;
+    top: -25px;
+    background-color: #FFF;
+}
+
+.craste-team-area .centered .single-resume-details p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.craste-team-details {
     padding-top: 60px;
-}
-
-.craste-resume-details h3 {
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: 22px;
-    letter-spacing: 0.05em;
-    margin-bottom: 40px;
-}
-
-.single-resume-details:not(:last-child) {
-    margin-bottom: 60px;
 }
 
 .single-resume-details h4,
@@ -1523,13 +1545,73 @@ blockquote:before {
 ==========================================================
 */
 .craste-testimonial-area {
-    background-image: url('../images/testimonial-bg.png');
+    background-image: url('../images/1-07.png');
     position: relative;
-    background-color: #fbfbfb;
-    background-size: cover;
-    background-position: center center;
+    background-color: #000;
+    background-size: 20%;
+    background-position: right center;
     background-repeat: no-repeat;
     padding: 80px 0;
+}
+
+.footer-area .titles {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-area .section-description,
+.craste-testimonial-area .section-description {
+    color: #5C93B0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 1;
+}
+
+.footer-area h3.section-description,
+.craste-testimonial-area h3.section-description {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.footer-area h2.section-description,
+.craste-testimonial-area h2.section-description {
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.craste-testimonial-area .single-testimonial h3,
+.craste-testimonial-area .single-testimonial h2 {
+    color: #5C93B0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: max-content;
+    padding-left: 40px;
+}
+
+.craste-testimonial-area .single-testimonial h3 {
+    font-style: italic;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.craste-testimonial-area .single-testimonial h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.craste-testimonial-area .single-testimonial p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    background-color: #FFF;
+    padding: 50px;
 }
 
 .craste-testimonial-wrapper {
@@ -1573,7 +1655,6 @@ blockquote:before {
 
 .testimonial-details {
     position: relative;
-    background-color: #FFF;
     margin-left: 4%;
     width: 46%;
     padding: 0 25px;
@@ -1590,7 +1671,8 @@ blockquote:before {
 }
 
 .testimonial-img {
-    width: 50%;
+    width: 25%;
+    margin-left: 20px;
 }
 
 .testimonial-details p {
@@ -1601,7 +1683,7 @@ blockquote:before {
 .craste-testimonial-wrapper .owl-nav {
     position: absolute;
     right: 0;
-    bottom: 22px;
+    bottom: -40px;
     left: 0;
     text-align: center;
 }
@@ -1952,7 +2034,7 @@ blockquote:before {
 */
 
 .footer-area {
-    background-color: #fbfbfb;
+    background-color: #000;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2139,8 +2221,11 @@ blockquote:before {
  */
 
 .social-links {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 10px auto;
+    width: max-content;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #000;
 }
 
 .social-links li {
@@ -2207,4 +2292,8 @@ blockquote:before {
 
 .challenges .second-column {
     background-image: url(../images/1-05.png);
+}
+
+.social-icons i {
+    color: #FFF;
 }
