@@ -1387,6 +1387,8 @@ blockquote:before {
     font-size: 25px;
     margin-bottom: 15px;
     text-align: center;
+    display: block;
+    color: #FFF;
 }
 
 .single-service h5 {
