@@ -1,16 +1,16 @@
 <section class="craste-resume-area resume-alt" id="value">
     <div class="container-fluid">
-        <div class="row craste-shrink">
+        <div class="row">
             <div class="col-12">
                 {% for value in site.data.value %}
                     {% capture thecycle %}{% cycle 'left', 'right' %}{% endcapture %}
-                    <div class="row flex-{{ thecycle }}">
-                        <div class="col-md-6 col-12 on-boarding">
+                    <div class="row flex-{{ thecycle }} {{ value.class }}">
+                        <div class="col-md-6 col-12 first-column">
                             <div class="degree-title {{ thecycle }}">
                                 <h3>{{ value.header }}</h3>
                             </div><!-- .degree-title -->
                         </div><!-- .col-md .col-12 -->
-                        <div class="col-md-6 col-12 align-self-center on-boarding">
+                        <div class="col-md-6 col-12 align-self-center second-column">
                             <div class="single-resume-details">
                                 <h2>{{ value.title }}</h2>
                                 {{ value.text | markdownify }}

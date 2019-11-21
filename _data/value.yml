@@ -1,4 +1,5 @@
 - header: On Boarding
+  class: on-boarding
   title: On Boarding
   text: |-
     Cuando contratamos a alguien, tardamos mucho en hacerlo productivo. Es más, afecta a nuestra productividad porque consume nuestros recursos durante el proceso de onboarding.
@@ -12,6 +13,7 @@
     Estos itinerarios se completan con un proyecto vehicular donde pueden poner en práctica el conocimiento adquirido y que responde a los estándares de desarrollo de la organización (stack, estrategias de despliegue, testing, etc...).
 
 - header: Talento
+  class: talent
   title: Captación y retención de talento
   text: |-
     Existen multitud de situaciones que pueden contribuir a aumentar la rotación en el equipo. En Red Flag apostamos por el diseño de entornos que permitan el crecimiento personal y profesional de los miembros de nuestros equipos.
@@ -19,6 +21,7 @@
     Para ello sustituimos el efecto wow que producen algunas tecnologías que utilizamos como reclamo. Definiendo y publicando un plan de carrera con el que no sólo mejorar en distintos aspectos dentro de la organización, sino incluso alcanzar nuevas áreas de conocimiento. Permitiendo que siempre se siga creciendo profesionalmente en el equipo: desarrollo sostenible dentro de la organización.
 
 - header: Inestabilidad
+  class: inestability
   title: Inestabilidad del proyecto
   text: |-
     Falta de habilidades y buenas prácticas, problemas en la calidad del código, o incluso, decisiones técnicas erróneas o mal ejecutadas. Existen multitud de factores que pueden afectar a la planificación de un proyecto.
@@ -26,6 +29,7 @@
     Red Flag tiene incorporado en su ADN el conjunto de prácticas y técnicas ágiles, pudiendo aportar experiencia y asesoramiento para mejorar el nivel del conjunto del equipo, favoreciendo la mejora continua y mejorando como consecuencia la calidad real del producto.
 
 - header: Desafíos
+  class: challenges
   title: Nuevos desafíos tecnológicos
   text: |-
     La tecnología y las necesidades de negocio cambian con cada desafío que afrontamos, haciendo cada vez más complicado mantener el nivel tecnológico de los productos y servicios que ofrecemos. Los stacks tecnológicos se vuelven obsoletos siendo reemplazados por nuevos entornos y tecnologías, abriendo nuevas oportunidades.

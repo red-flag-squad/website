@@ -12,19 +12,13 @@ a {
 	color: #333;
 }
 
-a:hover {
-	color: #FBE1B6;;
-}
-
 ::-moz-selection {
     color: #FFFFFF;
-    background-color: #FBE1B6;
     text-shadow: none;
 }
 
 ::selection {
     color: #FFFFFF;
-    background-color: #FBE1B6;
     text-shadow: none;
 }
 
