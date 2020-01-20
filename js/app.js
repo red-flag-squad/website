@@ -133,7 +133,7 @@
 		Owl Carousel Init
 	======================================
 	*/
-	if ($(window).width() > mobile_width) {		
+	if ($(window).width() > mobile_width) {
 	(function() {
 		$(".craste-testimonial-wrapper").owlCarousel({
 			loop: true,
