@@ -48,139 +48,7 @@ Max Width 991px
 	}
 }
 
-
-/*
-Max Width 767px
-==========================================================
-*/
-
-@media ( max-width: 767px ) {
-	.craste-sidebar-menu {
-		width: 100%;
-	}
-
-	.sidebar-menu-social {
-	    margin: 30px 0 20px;
-	}
-	
-	.grid-sizer.cols-3,
-	.grid-item.cols-3,
-	.grid-sizer.cols-4,
-	.grid-item.cols-4,
-	.grid-item.cols-5,
-	.grid-item.cols-6 {
-	    float: none;
-	}
-
-	.grid-sizer.cols-2,
-	.grid-item.cols-2,
-	.grid-sizer.cols-3,
-	.grid-item.cols-3,
-	.grid-sizer.cols-4,
-	.grid-item.cols-4,
-	.grid-item--width2.cols-3,
-	.grid-item--width2.cols-4,
-	.grid-sizer.cols-5,
-	.grid-item.cols-5,
-	.grid-item--width2.cols-5,
-	.grid-item--width2.cols-5,
-	.grid-sizer.cols-6,
-	.grid-item.cols-6,
-	.grid-item--width2.cols-6,
-	.grid-item--width2.cols-6 {
-	    width: 100%;
-	}
-
-	.craste-about-area,
-	.craste-portfolio-area,
-	.craste-services-area,
-	.craste-resume-area,
-	.craste-testimonial-area,
-	.craste-blog-area {
-		padding: 80px 0 0;
-	}
-
-	.testimonial-details {
-		padding: 10px;
-	}
-
-	.craste-contact-wrapper form p:nth-child(1),
-	.craste-contact-wrapper form p:nth-child(2) {
-		float: none;
-		margin: 0 0 15px;
-		width: 100%;
-	}
-
-	.single-resume-details {
-	    margin-bottom: 60px;
-	}
-
-	.single-blog-content h6 {
-		margin-top: 10px;
-	}
-
-	.comment-content h4 {
-		font-size: 1.2rem
-	}
-}
-
-/*
-Max Width 575px
-==========================================================
-*/
-
-@media ( max-width: 575px ) {
-	.banner-social ul li {
-		display: inline-block;
-		margin-right: 15px;
-	}
-
-	.craste-banner-area {
-		-webkit-background-size: contain;
-		background-size: contain;
-	}
-
-	.section-heading {
-	    -webkit-transform: rotate(0) translateX(0) translateY(-100%);
-	       -moz-transform: rotate(0) translateX(0) translateY(-100%);
-	        -ms-transform: rotate(0) translateX(0) translateY(-100%);
-	         -o-transform: rotate(0) translateX(0) translateY(-100%);
-	            transform: rotate(0) translateX(0) translateY(-100%);
-	}
-
-	.section-description {
-		font-size: 25px;
-	}
-
-	.craste-skills-area,
-	.craste-services-wrapper,
-	.craste-resume-details,
-	.craste-testimonial-wrapper,
-	.craste-blog-wrapper,
-	.craste-partners-wrapper,
-	.craste-contact-wrapper {
-		padding-top: 50px;
-	}
-
-	.banner-wrapper h2 {
-		font-size: 1.5rem;
-	}
-
-	.banner-wrapper h5 {
-		font-size: 1rem;
-	}
-
-	.banner-wrapper p {
-		margin-top: 15px;
-	}
-
-	.single-article h4,
-	.single-blog-content h3 {
-	    font-size: 1.2rem;
-	}
-}
-
-@media ( max-width: 441px ) {
+@media ( max-width: 801px ) {
 	.craste-initial-header-area .container-fluid,
 	.craste-initial-header-area .container-fluid .col,
 	.craste-initial-header-area .container-fluid .col .craste-main-header {
@@ -252,6 +120,21 @@ Max Width 575px
 	.craste-testimonial-area h2.section-description,
 	.craste-services-area h2.section-description {
 		font-size: 45px;
+	}
+
+	.craste-team-area .row.craste-shrink .col-8 {
+		margin-left: none;
+		margin-right: none;
+		flex: none;
+		max-width: 100%;
+	}
+
+	.single-resume-details img {
+		max-width: 150px;
+	}
+
+	.craste-resume-details .col-12 {
+		text-align: center;
 	}
 
 	.banner-social ul li {

@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	var mobile_width = 441;
+	var mobile_width = 801;
 
 	/*
 	======================================
