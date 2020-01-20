@@ -136,6 +136,10 @@ Max Width 991px
 	.craste-resume-details .col-12 {
 		text-align: center;
 	}
+	
+	.craste-resume-area.resume-alt .degree-title.right {
+		margin-right: 0px;
+	}
 
 	.banner-social ul li {
 		display: inline-block;
