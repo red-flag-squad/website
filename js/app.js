@@ -2,7 +2,7 @@
 
 	"use strict";
 
-
+	var mobile_width = 441;
 
 	/*
 	======================================
@@ -83,6 +83,9 @@
 
 		jQuery(window).on('load', function() {
 
+			if ($(window).width() < mobile_width) {
+				$('.craste-initial-header-area').addClass('fixed-header');
+			 }
 
 			/*
 			======================================
@@ -130,6 +133,7 @@
 		Owl Carousel Init
 	======================================
 	*/
+	if ($(window).width() > mobile_width) {		
 	(function() {
 		$(".craste-testimonial-wrapper").owlCarousel({
 			loop: true,
@@ -139,8 +143,7 @@
 			navText: ['<i class="far fa-arrow-alt-circle-left"></i>','<i class="far fa-arrow-alt-circle-right"></i>']
 		});
 	})();
-
-
+	}
 
 	/*
 	======================================
@@ -219,7 +222,7 @@
                 Fixed Header Init
             ======================================
             */
-            if ($(window).scrollTop() > 175) {
+            if ($(window).scrollTop() > 175 || $(window).width() < mobile_width) {
                $('.craste-initial-header-area').addClass('fixed-header');
             }
             else {
