@@ -75,6 +75,8 @@ Max Width 991px
 		flex: none;
 		max-width: 100%;
 		background-color: rgba(0,0,0,0.9);
+		background-image: url(../images/1-07-alpha.png);
+		background-size: cover;
 	}
 
 	.craste-banner-image-area .row.craste-shrink .col-4 h3,
